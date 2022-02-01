@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 12;
+}
+.logo {
+  font-family: "Permanent Marker";
+  font-size: 36px;
+  padding: 50px;
+  margin-left: 50px;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #fff;
+}
+.nav-bar {
+  font-family: "Poppins";
+  font-size: 20px;
+  float: right;
+  list-style: none;
+}
+.nav-bar li {
+  display: inline-block;
+}
+.nav-bar li a {
+  padding: 15px;
+}
+.nav-bar li a:hover {
+  background: #7d7a7a;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-width: auto;
+}
+.carousel-item img {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+  filter: brightness(80%);
+}
+.box {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 25px;
+  border-radius: 20px;
+}
+.box p {
+  text-align: justify;
+}
+.row-1,
+.row-2 {
+  display: flex;
+  padding: 50px;
+}
+.col-1 {
+  display: grid;
+  margin: 50px;
+}
+.col-1 h1 {
+  font-family: "Anton";
+  font-size: 92px;
+}
+.col-1 img {
+  background-size: fixed;
+}
+
+.col-2 p {
+  font-family: "Poppins";
+  font-size: 40px;
+  margin-left: 500px;
+  margin-top: 155px;
+  white-space: nowrap;
+}
+
+.row-2 {
+  background: rgb(15, 15, 15);
+}
+.row-2 .col-1 h1 {
+  color: #fff;
+}
+.row-2 .col-2 p {
+  color: #fff;
+}

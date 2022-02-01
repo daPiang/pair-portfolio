@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+#container {
+    background-color: black;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    height: 350px;
+    width: 750px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: skyblue;
+}
+
+#btn {
+    margin: 25px auto;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    background-color: white;
+    color: skyblue;
+    outline: black;
+    border-radius: 50px;
+}
+
+#output {
+    margin: 25px;
+    font-size: 24px;
+    color: skyblue;
+    font-family: Helvetica, sans-serif;
+}

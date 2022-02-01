@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Quote Me On That</title>
+</head>
+<body>
+    <div class='row'>
+        <div class='col-1'></div>
+        <div class='col-2'>
+            <div class='frame_container'>
+                <img src='img/blank.png' class='bg_img' id='bg_img'>
+                <img src='img/blank.png' class='person_img' id='person_img'>
+                <h1 class='quote_txt' id='quote_txt'></h1>
+                <img src='img/frame.png' class='frame_img'>
+            </div>
+        </div>
+        <div class='col-1'></div>
+    </div>
+
+    <div class='row'>
+        <div class='col-1'></div>
+        <div class='col-2'>
+            <div class='plate_container'>
+                <img src='img/plate.png' class='plate_img'>
+                <h1 class='plate_txt' id='plate_txt'></h1>
+            </div>
+        </div>
+        <div class='col-1'></div>
+    </div>
+        
+    <div class='row'>
+        <div class='col-4'></div>
+        <div class='col-3'>
+            <div class='button_container'>
+                <button class='btn rizal' id='btn-rizal' onclick="setRizal()"></button>
+                <button class='btn mart' id='btn-mart' onclick="setMart()"></button>
+                <button class='btn sun' id='btn-sun' onclick="setSun()"></button>
+                <button class='btn soc' id='btn-soc' onclick="setSoc()"></button>
+                <button class='btn niet' id='btn-niet' onclick="setNiet()"></button>
+            </div>
+        </div>
+        <div class='col-4'></div>
+    </div>
+
+    <div class='row'>
+        <div class='col-1'></div>
+        <div class='col-2'>
+            <div class='quote_button_container'>
+                <button class='quote_btn' id='quote_btn' onclick="getQuote()">EMPART WISDOM</button>
+            </div>
+        </div>
+        <div class='col-1'></div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>

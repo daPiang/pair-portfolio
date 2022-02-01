@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Tinder</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="side" id='side'>
+                <div class="header">
+                    <div class="avatar">
+                        <img src="img/user.jpg" alt="">
+                    </div>
+                <div class="title">My Profile</div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>Matches</li>
+                        <li class="active">Messages</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="user">
+                        <img class="user" id='user' src="img/0.png" alt="">
+                        <div class="profile">
+                            <div class='name-age'>
+                                <div class="name" id='name'>Feliz</div>
+                                <div class='age' id='age'>, 12</div>
+                            </div>
+                            
+                            <div class="local">
+                                <i class="fas fa-map-marker alt"></i>
+                                <span id='distance'>20 kilometers away</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="no">
+                        <i class="fas fa-times" id='button1' onclick="unmatchFunction()"></i>
+                    </div>
+                    <div class="heart">
+                        <i class=" fas fa-heart" id='button'3 onclick="heartFunction()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src='main.js'></script>
+    </body>
+</html>

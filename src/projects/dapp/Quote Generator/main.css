@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.col-1 {
+  width: 25%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-3 {
+  width: 65%;
+}
+.col-4 {
+  width: 17.5%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html {
+  font-family: "Noto Serif", serif;
+}
+body {
+  background-color: rgb(255, 241, 225);
+}
+.frame_container {
+  position: relative;
+}
+.frame_img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  opacity: 100%;
+}
+.bg_img {
+  position: absolute;
+  max-width: 73%;
+  height: auto;
+  top: 8rem;
+  left: 8rem;
+}
+.person_img {
+  position: absolute;
+  max-width: 25%;
+  height: auto;
+  top: 18rem;
+  left: 8rem;
+}
+.quote_txt {
+  color: goldenrod;
+  text-align: right;
+  text-anchor: end;
+  position: absolute;
+  margin-top: 9.6rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.plate_container {
+  position: relative;
+  margin-top: 38.5rem;
+}
+.plate_img {
+  position: absolute;
+  max-width: 30%;
+  height: auto;
+  left: 35%;
+}
+.plate_txt {
+  text-align: center;
+  text-anchor: middle;
+  position: absolute;
+  left: 42.5%;
+}
+.button_container {
+  position: relative;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.btn {
+  width: 19%;
+  height: 70px;
+  background-size: 100%, 70px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+.btn:hover {
+  filter: grayscale(0%);
+}
+.rizal {
+  background-image: url("img/button_rizal.jpg");
+}
+.mart {
+  background-image: url("img/button_martin.jpg");
+}
+.sun {
+  background-image: url("img/button_sun.jpg");
+}
+.soc {
+  background-image: url("img/button_socrates.jpg");
+}
+.niet {
+  background-image: url("img/button_niet.jpg");
+}
+.quote_button_container {
+  position: relative;
+}
+.quote_btn {
+  position: absolute;
+  cursor: pointer;
+  font-family: "Noto Serif", serif;
+  background-color: rgb(235, 188, 0);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  left: 41%;
+  visibility: hidden;
+}
+.quote_btn:hover {
+  background-color: #f1f1f1;
+}
